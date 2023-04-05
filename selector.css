@@ -1,0 +1,46 @@
+
+    /* uninersal selector*/
+
+*{
+        margin: 0;
+        padding: 0
+}
+
+
+/* Element selecotor*/
+body{
+    background-color: red;
+    text-align: center;
+}
+h1{
+    background-color: #008000;
+    color:#9acd32;
+    font-size: 60px;
+
+}
+
+
+/*Class Selector*/
+
+.pra{
+    background-color: #808080;
+    text-align: center;
+    color:gold
+    font-size:60px;
+}
+
+/*ID Selector*/
+#id1{
+    
+    color:#00ffff;
+    font-size: 20px;
+}
+
+
+/*Selector List */
+
+.class1,.class7,.class5{
+
+        background-color: black;
+        color:white;
+}

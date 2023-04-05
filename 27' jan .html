@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Pseudo Class </title>
+
+    <style>
+
+
+        /*Pseudo class*/
+
+        p:hover{
+            background-color: yellow;
+            color:purple;
+        }   
+
+        input:focus{
+            color:red;
+            background-color:#808080;
+            font-size:20px;
+        
+        }
+
+        a:hover{
+            color:green;
+        }
+
+        p:first-child{
+            background-color:pink;
+        }
+
+       /* p:nth-child(2n){
+            background-color: purple;
+        }*/
+
+        a:active{
+            color:brown;
+        }
+
+        a:visited{
+            color:black;
+        }
+
+
+        /*Pseudo element*/
+
+
+        p::first-line{
+            color:red;
+        }
+
+        p::first-letter{
+            color:blue
+        }
+
+        p::after{
+            content: "_Monu Gupta";
+            color:green
+        }
+
+        p::before{
+            content:"_pwskills _";
+            color:#808080;
+        }
+
+        p::selection{
+            background-color: black;
+            color:antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pseudo class -->
+    <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae in modi veritatis dolores eaque delectus dolor iusto accusantium hic earum.</p>
+
+    <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat doloribus architecto consequatur repellendus? Et mollitia accusantium ipsam! Rem tenetur eos non fugit eum, enim quidem esse modi impedit perspiciatis nesciunt iusto expedita atque eligendi. Amet harum totam quia quidem nemo sequi eos provident aspernatur saepe quis hic eveniet, temporibus labore!</p>
+    <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, maiores consequuntur animi facere ex quam tempora quos, sed exercitationem harum temporibus. Inventore temporibus enim explicabo aliquam, mollitia eos animi odio!</p>
+    
+    <p class="hover">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet excepturi nesciunt repudiandae ipsa ipsam inventore possimus nostrum aliquam voluptatum architecto nihil enim pariatur natus molestiae consequatur, quasi laboriosam, quia nemo reprehenderit. Nulla voluptas corrupti quos, deserunt illo ratione optio cumque. Delectus placeat deleniti quod repellendus.</p>
+
+    <p class="hover">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus culpa eveniet vel illum iste sequi, accusantium soluta nam, nobis id impedit quis vitae dolorem! Dolores tempore alias eius doloremque quaerat odit distinctio provident dicta eos, cupiditate repellendus, eaque aperiam amet quisquam. Nam laudantium, odit soluta tempore quaerat odio commodi facilis aut nihil eum, pariatur aliquid voluptatem earum dolorem architecto numquam, mollitia amet incidunt praesentium hic. Itaque quasi dolorum temporibus doloremque!</p>
+
+
+    <input type="text"/>
+
+    <br>
+    <nav>
+        <a href="https://www.google.com/">Google</a>
+    <br>
+    <a href="https://www.google.com/">Google</a>
+    <br>
+    <a href="https://www.google.com/">Google</a>
+    <br>
+    <a href="https://www.google.com/">Google</a>
+    </nav>
+    
+
+    
+</body>
+</html>

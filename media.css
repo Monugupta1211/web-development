@@ -1,0 +1,78 @@
+body{
+    
+    background-color:#000e6787;
+    
+}
+
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content:'Demo Classes'
+
+}
+
+
+@media (min-width:600px){
+
+    body{
+        background-color:blue;
+    }
+
+    div::after{
+        content:'Small Devices'
+    }
+
+}
+
+/*small devices(portrait tablets and large phones, 600px and up */
+
+@media (601px <= width <=750px){
+
+    body{
+        background-color: green;
+
+    }
+
+    div::after{
+        content:'woah it working'
+
+    }
+}
+
+
+@media (751px <= width <=900px){
+    body{
+        background-color: yellow;
+    }
+
+    div::after{
+        content:'Tablets'
+    }
+}
+
+
+
+@media (900px <= width <=1200px){
+
+    body{
+        background-color: aqua;
+    }
+
+    div::after{
+        content:'LAPTOP'
+    }
+}
+
+@media (min-width:1201px){
+    body{
+        background-color: red ;
+
+    }
+
+    div::after{
+        content:'Large device'
+    }
+}
